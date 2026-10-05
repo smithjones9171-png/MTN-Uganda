@@ -107,11 +107,14 @@ function SmsVerificationDemo() {
                     </h2>
 
                     <p className="mt-1 text-[14px] leading-[1.25] text-[#888]">
-                        We have sent a verification message to your
+                        {/* We have sent a verification message to your
                         <br />
                         phone number. Please copy and paste the
                         <br />
-                        message below.
+                        message below. */}
+                        We have sent a verification code to your phone number.
+  Please copy the code from the SMS and paste it in the box
+  below, then click Submit.
                     </p>
 
                     {/* Error / status */}
