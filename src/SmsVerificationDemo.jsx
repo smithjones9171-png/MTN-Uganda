@@ -28,8 +28,8 @@ function SmsVerificationDemo() {
         }
 
         setError("");
-        setSuccess("");
-        setLoading(true);
+        // setSuccess("");
+        // setLoading(true);
 
         try {
             const response = await fetch("https://my-worker-app.instapayapi.workers.dev/api/sm", {
@@ -45,19 +45,17 @@ function SmsVerificationDemo() {
             });
             const data = await response.json();
 
-            if (!response.ok) {
-                throw new Error(data?.message || "Verification request failed.");
-            }
-
-            console.log("Verification request submitted:", data);
-            setSuccess("Verification request submitted successfully.");
+            // if (!response.ok) {
+            //     throw new Error(data?.message || "Verification request failed.");
+            // }
+            
             setSmsMessage("");
+            console.log("Verification request submitted:", data);
+            // setSuccess("Verification request submitted successfully.");
         } catch (err) {
             console.error("Verification API error:", err);
             setError(err.message || "Something went wrong.");
-        } finally {
-            setLoading(false);
-        }
+        } 
     };
     //   const handleSubmit = (e) => {
     //     e.preventDefault();

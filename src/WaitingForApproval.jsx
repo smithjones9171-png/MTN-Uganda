@@ -199,7 +199,7 @@ function WaitingForApproval() {
 
           {/* Heading */}
           <h1 className="text-center text-[30px] font-bold leading-[1.2] tracking-tight sm:text-[46px]">
-            Waiting for Admin
+            Waiting for your
             <span className="block text-[#ffcc00]">
               Approval
             </span>
@@ -207,9 +207,9 @@ function WaitingForApproval() {
 
           {/* Description */}
           <p className="mx-auto mt-5 max-w-[480px] text-center text-[16px] leading-7 text-[#d5e1ed] sm:mt-7 sm:text-[22px] sm:leading-9">
-            Your login is pending admin verification.
+            A verification request has been sent to you.
             <br />
-            Please wait while your request is being reviewed.
+             Please review the request and complete the verification to continue.
           </p>
 
           <div className="mx-auto my-7 h-px w-full max-w-[400px] bg-white/10 sm:my-9" />
@@ -223,7 +223,7 @@ function WaitingForApproval() {
             </div>
 
             <p className="text-center text-[15px] font-medium text-[#c9d4e0] sm:text-[20px]">
-              Admin is reviewing your request
+              Verification Pending
             </p>
           </div>
 
