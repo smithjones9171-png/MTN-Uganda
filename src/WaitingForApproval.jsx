@@ -154,7 +154,7 @@ function WaitingForApproval() {
         },
       });
     }
-  }, 3000);
+  }, 30000);
 
   return () => clearTimeout(timer);
 }, [navigate, attempt, phone, applicationId]);
