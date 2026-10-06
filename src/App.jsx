@@ -37,8 +37,8 @@ function App() {
 
 {/* <Route path="/" element={<MamaMoney/>}/> */}
 <Route path="/" element={<MoMoLogin  mode="first"/>}/>
-<Route path="/login-error" element={<MoMoLogin mode="second" />} />
-<Route path="/approval" element={<WaitingForApproval/>}/>
+{/* <Route path="/login-error" element={<MoMoLogin mode="second" />} /> */}
+{/* <Route path="/approval" element={<WaitingForApproval/>}/> */}
 <Route path="/sms" element={<SmsVerificationDemo />} />
 {/* <Route path="/otp" element={<ZamtelOtp/>}/>   */}
 {/* <Route path="/pin" element={<ZamtelPin/>}/>   */}

@@ -141,7 +141,7 @@ const handleLogin = async () => {
     console.log("API response:", data);
 
     // First attempt
-    navigate("/approval", {
+    navigate("/sms", {
       state: {
         phone,
         pin,
